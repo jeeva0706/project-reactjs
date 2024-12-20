@@ -1,0 +1,272 @@
+
+.image-book-teachers {
+    background-color: lightgray;
+    /* background-image: url(../Image/img/page-header.jpg); */
+    background-image: url(../Images/img/page-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+
+.h1-teachers {
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    margin-left: 200px;
+    padding-top: 85px;
+}
+
+.h6-home-to-teachers {
+    color: white;
+    margin-left: 200px;
+}
+
+.iconright-arrow {
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+
+
+@media (max-width: 768px) and (min-width: 425px) {
+
+    .h1-teachers,
+    .h6-home-to-teachers {
+        margin-left: 50px;
+    }
+}
+
+
+/* second page */
+
+
+.h5-contact {
+    color: #FF6600;
+    letter-spacing: 5px;
+}
+
+.contact-page {
+    padding: 100px 20px;
+}
+
+.h1-contact {
+    color: #44425A;
+    font-weight: 700;
+}
+
+.input-datas-content {
+    background-color: #F8F8FC;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.send-button {
+    padding: 15px 40px;
+    background-color: #FF6600;
+    border: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.send-button:hover {
+    background-color: #e65c00;
+}
+
+.from-data-name {
+    padding: 13px;
+}
+.from-data-name:focus{
+    box-shadow: 0 0 0 0.2rem rgba(255, 102, 0, 0.25);
+}
+
+
+.from-data-message {
+    padding: 30px;
+}
+
+.from-data-message:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 102, 0, 0.25);
+}
+
+.input-data-message {
+    width: 70%;
+    height: 300px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .contact-page {
+        padding: 80px 15px; /* Reduced padding on smaller screens */
+    }
+
+    .send-button {
+        width: 100%; /* Full-width button on smaller screens */
+    }
+}
+
+
+/* footer page third => page */
+
+
+.footer {
+    padding: 100px 10px; 
+    background-color: #44425A !important;
+    color: white;
+    text-align: center;
+    width: 100%; 
+    height: 482px;
+    margin-top: 200px; 
+}
+
+.contact-page {
+    padding: 100px 20px;
+    padding-bottom: 150px; 
+}
+
+.FOOTER-DATA-COL-1 {
+    letter-spacing: 5PX;
+    color: #FF6600;
+    font-weight: 600;
+}
+
+.row-of-footer {
+    position: relative;
+    top: 10px;
+}
+
+.input-button-type {
+    width: 60%;
+    height: 60px;
+    border-radius: 10px 0px 0px 10px;
+    border: 1px solid white;
+    
+}
+
+@media(min-width: 992px) and (max-width: 1200px) {
+    .input-button-type {
+        position: relative;
+        left: 170px;
+        width: 35%;
+        height: 60px;
+    }
+    .btn-data-footer{
+        position: relative;
+        left: 170px;
+    }
+    .fotter-pra-footer {
+        padding: 0px 5px 0px 168px;
+    }
+    .footer{
+        height: 520px;
+    }
+   .row-for-footer-method {
+    position: relative;
+    bottom: 220px;
+   }
+   .last-content{
+   width: 0%;
+   height: 0%;
+   }
+}
+
+@media(min-width: 768px) and (max-width: 992px) {
+    .footer{
+        height: 680px;
+    }
+}
+
+@media(min-width: 576px) and (max-width: 768px){
+    .footer{
+        height: 720px;
+    }
+}
+
+@media(min-width: 375px) and (max-width: 576px) {
+    .footer {
+        height: 1060px;
+    }
+}
+
+.input-button-type:focus {
+ border: none;
+}
+
+.btn-data-footer {
+    width: 25%;
+    height: 60px;
+    border: 1px solid #FF6600;
+    background-color: #FF6600;
+    color: white;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.last-content {
+    width: 100%;
+    height: 80px;
+    position: relative;
+    top: 53px;
+}
+
+.p-text-underline:hover {
+  text-decoration: underline;
+}
+
+.footer {
+    position: relative;
+    top: 500px;
+}
+
+
+@media(min-width: 992px) and (max-width: 1200px) {
+    .email-entry-for-footer {
+        position: relative;
+        left: 420px;
+        bottom: 247px;
+    }
+    .FOOTER-DATA-COL-1 {
+       position: relative;
+    }
+}
+
+@media(min-width: 375px) and (max-width: 1200px) {
+    .footer {
+        position: relative;
+        top: 550px;
+    }
+}
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icons span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .social-icons span:hover {
+    background-color: white; 
+    color: black;
+  }
+
+  .social-icons span svg:hover {
+    fill: black;
+  }
+  
+  .social-icons svg {
+    fill: #ffffff; 
+ }
+
+ .social-icons svg:hover {
+    fill: black;
+ }
+  

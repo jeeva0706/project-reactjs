@@ -1,0 +1,54 @@
+.back-to-top {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 11;
+}
+
+.d-none {
+    display: none !important;
+}
+
+.d-block {
+    display: block !important;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #FF6600;
+    --bs-btn-border-color: #FF6600;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #FF6600;
+    --bs-btn-hover-border-color: #FF6600;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #FF6600;
+    --bs-btn-active-border-color: #FF6600;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #FF6600;
+    --bs-btn-disabled-border-color: #FF6600;
+}
+
+.btn-lg-square {
+    width: 40px !important;
+    height: 40px !important;
+    padding: 0 !important; 
+}
+
+
+.back-to-top {
+    position: fixed;
+    left: 30px; 
+    bottom: 30px;
+    z-index: 11;
+}
+
+.btn.back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 0;
+    left: 1200px;
+    z-index: 1000;
+    cursor: pointer;
+}

@@ -1,0 +1,377 @@
+
+
+.image-book {
+    background-color: lightgray;
+    /* background-image: url(../Image/img/page-header.jpg); */
+    background-image: url(../Images/img/page-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+
+.h1-about {
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    margin-left: 200px;
+    padding-top: 85px;
+}
+
+.h6-home-to-about {
+    color: white;
+    margin-left: 200px;
+}
+
+
+.iconright-arrow {
+    width: 20px;
+    height: 20px;
+    color: white;  
+}
+
+@media (max-width: 768px) and (min-width: 425px) {
+    .h1-about, .h6-home-to-about {
+        margin-left: 50px; 
+    }
+}
+
+/* second page */
+
+.book-page {
+    margin: 0;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 2s ease-out, transform 2s ease-in-out;
+}
+
+.IMAGE-CONTAINER {
+    padding-top: 3rem;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    25% {
+        opacity: 0;
+        transform: translateX(-40px);
+    }
+
+    50% {
+        opacity: 0;
+        transform: translateZ(70px);
+    }
+
+    75% {
+        opacity: 0;
+        transform: translateZ(-100px);
+    }
+
+    100% {
+        opacity: 2;
+        transform: translateX(0px);
+    }
+}
+
+.fade-in-up {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.image-books {
+    width: 100%;
+    position: relative;
+    left: -32px;
+    height: 480px;
+    right: -15px;
+    border-radius: 7px;
+}
+
+@media(min-width:425px ) and (max-width: 320px) {
+    .image-books {
+        position: relative;
+        right: 0px;
+        left: 550px;
+    }
+}
+
+@media (max-width: 575px) and (min-width: 425px) {
+    .image-books {
+        position: relative;
+        right: 0;
+        left: 0;
+    }
+}
+
+@media (max-width: 425px) {
+    .image-books {
+        position: relative;
+        left: 3px;
+    }
+}
+
+.MAIN-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    animation: mycontent-1 3s;
+}
+
+@keyframes mycontent-1 {
+    0% {
+        left: 20px;
+
+    }
+}
+
+.MAIN-2 {
+    top: 160px;
+    padding: 20px;
+    border: none;
+}
+
+.h5-letter {
+    letter-spacing: 5px;
+    color: #FF6600;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.MAIN-2 h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.MAIN-2 p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+.btn-12 {
+    background-color: #FF6600;
+    border-color: #FF6600;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.btn-12:hover {
+    background-color: #e65c00;
+    border-color: #e65c00;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+
+}
+
+.no-gutters>.col,
+.no-gutters>[class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.book-page {
+    margin: 40px 0;
+
+}
+
+.image-books {
+    width: 80%;
+    height: 400px;
+    border-radius: 7px;
+}
+
+.MAIN-1,
+.MAIN-2 {
+    border: none;
+    padding: 0;
+}
+
+.para-data {
+    color: #6C6A74;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 1.7rem;
+    font-family: "Poppins", sans-serif;
+    word-spacing: 2px;
+}
+
+
+
+/* footer====================================================== */
+
+
+
+
+.footer {
+    padding: 100px 10px; 
+    background-color: #44425A !important;
+    color: white;
+    text-align: center;
+    width: 100%; 
+    height: 482px;
+    margin-top: 200px; 
+}
+
+.contact-page {
+    padding: 100px 20px;
+    padding-bottom: 150px; 
+}
+
+.FOOTER-DATA-COL-1 {
+    letter-spacing: 5PX;
+    color: #FF6600;
+    font-weight: 600;
+}
+
+.row-of-footer {
+    position: relative;
+    top: 10px;
+}
+
+.input-button-type {
+    width: 60%;
+    height: 60px;
+    border-radius: 10px 0px 0px 10px;
+    border: 1px solid white;
+    
+}
+
+@media(min-width: 992px) and (max-width: 1200px) {
+    .input-button-type {
+        position: relative;
+        left: 170px;
+        width: 35%;
+        height: 60px;
+    }
+    .btn-data-footer{
+        position: relative;
+        left: 170px;
+    }
+    .fotter-pra-footer {
+        padding: 0px 5px 0px 168px;
+    }
+    .footer{
+        height: 520px;
+    }
+   .row-for-footer-method {
+    position: relative;
+    bottom: 220px;
+   }
+   .last-content{
+   width: 0%;
+   height: 0%;
+   }
+}
+
+@media(min-width: 768px) and (max-width: 992px) {
+    .footer{
+        height: 680px;
+    }
+}
+
+@media(min-width: 576px) and (max-width: 768px){
+    .footer{
+        height: 720px;
+    }
+}
+
+@media(min-width: 375px) and (max-width: 576px) {
+    .footer {
+        height: 1060px;
+    }
+}
+
+.input-button-type:focus {
+ border: none;
+}
+
+.btn-data-footer {
+    width: 25%;
+    height: 60px;
+    border: 1px solid #FF6600;
+    background-color: #FF6600;
+    color: white;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.last-content {
+    width: 100%;
+    height: 80px;
+    position: relative;
+    top: 53px;
+}
+
+.p-text-underline:hover {
+  text-decoration: underline;
+}
+
+.footer {
+    position: relative;
+    top: 500px;
+}
+
+
+@media(min-width: 992px) and (max-width: 1200px) {
+    .email-entry-for-footer {
+        position: relative;
+        left: 420px;
+        bottom: 247px;
+    }
+    .FOOTER-DATA-COL-1 {
+       position: relative;
+    }
+}
+
+@media(min-width: 375px) and (max-width: 1200px) {
+    .footer {
+        position: relative;
+        top: 550px;
+    }
+}
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icons span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .social-icons span:hover {
+    background-color: white; 
+    color: black;
+  }
+
+  .social-icons span svg:hover {
+    fill: black;
+  }
+  
+  .social-icons svg {
+    fill: #ffffff; 
+ }
+
+ .social-icons svg:hover {
+    fill: black;
+ }
+  

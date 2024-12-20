@@ -1,0 +1,271 @@
+.categories-list {
+    border: 1px solid gainsboro;
+    padding: 8px 10px;
+    position: relative;
+    top: 10px;
+    background-color: #f6f6f6;
+}
+
+.container-for-cat {
+    position: relative;
+    bottom: 20px;
+}
+
+.second-container-cat {
+    border: 1px solid gainsboro;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /* top: 20px; */
+    bottom: 10px;
+}
+
+.table-content {
+    margin: 10px 10px;
+    border: 1px solid gainsboro;
+    position: relative;
+    /* bottom: 20px; */
+    top: 20px;
+}
+
+.pencil-box {
+    padding: 1px 0px 10px 13px;
+    border: 1px solid gainsboro;
+    background-color: #1e91cf;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.t-head-table {
+    padding: 10px 10px;
+}
+
+
+
+
+
+.categories-list {
+    border: 1px solid gainsboro;
+    padding: 8px 10px;
+    margin-top: 10px;
+    background-color: #f6f6f6;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.container-for-cat {
+    margin-top: 10px;
+}
+
+.second-container-cat {
+    border: 1px solid gainsboro;
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table-content {
+    margin: 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+table thead {
+    background-color: #1e91cf;
+    color: white;
+    font-weight: bold;
+}
+
+table thead tr {
+    border-bottom: 2px solid #ddd;
+}
+
+table thead td {
+    padding: 12px 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tbody tr:hover {
+    background-color: #e6f7ff;
+}
+
+table tbody td {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.pencil-box {
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px 8px;
+    background-color: #1e91cf;
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.pencil-box:hover {
+    background-color: #167ba7;
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+}
+
+
+
+.three-icons {
+    display: flex;
+    gap: 5px;
+    /* Space between buttons */
+    justify-content: flex-end;
+    /* Align to the right */
+    align-items: center;
+    position: relative;
+    bottom: 32px;
+}
+
+.icon-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    /* Icon button width */
+    height: 36px;
+    /* Icon button height */
+    border: none;
+    /* Remove borders */
+    border-radius: 6px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Icon size */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    transition: all 0.3s ease;
+    /* Smooth transition */
+}
+
+/* Individual button colors */
+.plus-icon {
+    background-color: #1e91cf;
+    /* Blue */
+    color: white;
+}
+
+.repeat-icon {
+    background-color: #f4f4f4;
+    /* Light gray */
+    color: #6c757d;
+    /* Icon color */
+    border: 1px solid #ddd;
+    /* Subtle border */
+    font-weight: 10px;
+}
+
+.btn-delete {
+    background-color: #e3503e;
+    /* Red */
+    color: white;
+}
+
+/* Hover effects */
+.icon-btn:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+    /* Slight lift effect */
+}
+
+/* Box shadow for a modern look */
+.icon-btn:focus,
+.icon-btn:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dash-main-p2 {
+    color: #1e91cf;
+}
+
+.category-list {
+    max-width: 95%;
+    border: 1px solid gainsboro;
+    background-color: #f6f6f6;
+    padding: 10px 10px;
+    position: relative;
+    left: 22px;
+}
+
+
+.save-icon {
+    background-color: #1e91cf;
+    color: white;
+}
+
+.star-start {
+    color: red;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.div-2-category {
+    position: relative;
+    left: 22px;
+    max-width: 95%;
+    border: 1px solid gainsboro;
+    padding: 20px 20px;
+    /* border: 1px solid gainsboro; */
+}
+
+.input-box {
+    width: 83%;
+    outline: #1e91cf;
+    padding: 6px 12px;
+}
+
+.input-box:focus {
+    border-color: skyblue;
+}
+
+.cat-name {
+    font-weight: 600;
+}
+
+.div-3-category {
+    max-width: 95%;
+    border: 1px solid gainsboro;
+    position: relative;
+    left: 22px;
+    border-top: none;
+}
+
+.tools-div {
+    width: 80%;
+    /* align-items: center; */
+    position: relative;
+    left: 170px;
+    bottom: 20px;
+}
+
+.description {
+    font-weight: 600;
+    position: relative;
+    /* bottom: 10px; */
+    top: 20px;
+    left: 65px;
+}

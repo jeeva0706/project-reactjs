@@ -1,0 +1,280 @@
+
+.image-book-courses {
+    background-color: lightgray;
+    /* background-image: url(../Image/img/page-header.jpg); */
+    background-image: url(../Images/img/page-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+
+.h1-courses {
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    margin-left: 200px;
+    padding-top: 85px;
+}
+
+.h6-home-to-courses {
+    color: white;
+    margin-left: 200px;
+}
+
+.iconright-arrow {
+    width: 20px;
+    height: 20px;
+    color: white;  
+}
+
+@media (max-width: 768px) and (min-width: 425px) {
+    .h1-courses, .h6-home-to-courses {
+        margin-left: 50px; 
+    }
+}
+
+
+/* second page */
+
+.H4-TEACHERS {
+    letter-spacing: 5px;
+    color: #FF6600;
+}
+
+.H1-TEACHERS {
+    color: #44425A;
+    font-weight: 700;
+}
+
+.teachers-content-data {
+    padding: 100px 50px;
+}
+
+.card-body-data {
+    background-color: #F8F8FC;
+}
+
+
+.image-teacher {
+    position: relative;
+    z-index: 1;
+}
+
+.image-teacher::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:  rgba(68, 66, 90, 0.806); 
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 2;
+}
+
+.card:hover .image-teacher::after {
+    opacity: 1;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.card-body-data {
+    background-color: #F8F8FC;
+    position: relative;
+    z-index: 4;
+}
+
+
+.icons-for-teachers {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 15px;
+    z-index: 10; 
+}
+
+.icons-for-teachers span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30%;
+    padding: 10px;
+    border: 1px solid white;
+    transition: background-color 0.3s ease; 
+    mix-blend-mode: color-burn;
+}
+
+.icons-for-teachers span:hover {
+    background-color: rgba(0, 0, 0, 0.8); 
+}
+
+
+/* footer page */
+
+
+
+
+.footer {
+    padding: 100px 10px; 
+    background-color: #44425A !important;
+    color: white;
+    text-align: center;
+    width: 100%; 
+    height: 482px;
+    margin-top: 200px; 
+}
+
+.contact-page {
+    padding: 100px 20px;
+    padding-bottom: 150px; 
+}
+
+.FOOTER-DATA-COL-1 {
+    letter-spacing: 5PX;
+    color: #FF6600;
+    font-weight: 600;
+}
+
+.row-of-footer {
+    position: relative;
+    top: 10px;
+}
+
+.input-button-type {
+    width: 60%;
+    height: 60px;
+    border-radius: 10px 0px 0px 10px;
+    border: 1px solid white;
+    
+}
+
+@media(min-width: 992px) and (max-width: 1200px) {
+    .input-button-type {
+        position: relative;
+        left: 170px;
+        width: 35%;
+        height: 60px;
+    }
+    .btn-data-footer{
+        position: relative;
+        left: 170px;
+    }
+    .fotter-pra-footer {
+        padding: 0px 5px 0px 168px;
+    }
+    .footer{
+        height: 520px;
+    }
+   .row-for-footer-method {
+    position: relative;
+    bottom: 220px;
+   }
+   .last-content{
+   width: 0%;
+   height: 0%;
+   }
+}
+
+@media(min-width: 768px) and (max-width: 992px) {
+    .footer{
+        height: 680px;
+    }
+}
+
+@media(min-width: 576px) and (max-width: 768px){
+    .footer{
+        height: 720px;
+    }
+}
+
+@media(min-width: 375px) and (max-width: 576px) {
+    .footer {
+        height: 1060px;
+    }
+}
+
+.input-button-type:focus {
+ border: none;
+}
+
+.btn-data-footer {
+    width: 25%;
+    height: 60px;
+    border: 1px solid #FF6600;
+    background-color: #FF6600;
+    color: white;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.last-content {
+    width: 100%;
+    height: 80px;
+    position: relative;
+    top: 53px;
+}
+
+.p-text-underline:hover {
+  text-decoration: underline;
+}
+
+.footer {
+    position: relative;
+    top: 500px;
+}
+
+
+@media(min-width: 992px) and (max-width: 1200px) {
+    .email-entry-for-footer {
+        position: relative;
+        left: 420px;
+        bottom: 247px;
+    }
+    .FOOTER-DATA-COL-1 {
+       position: relative;
+    }
+}
+
+@media(min-width: 375px) and (max-width: 1200px) {
+    .footer {
+        position: relative;
+        top: 550px;
+    }
+}
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icons span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .social-icons span:hover {
+    background-color: white; 
+    color: black;
+  }
+
+  .social-icons span svg:hover {
+    fill: black;
+  }
+  
+  .social-icons svg {
+    fill: #ffffff; 
+ }
+
+ .social-icons svg:hover {
+    fill: black;
+ }
+  

@@ -1,0 +1,41 @@
+
+.container-logo {
+  border: 1px solid gainsboro;
+  height: 70px;
+}
+
+.logo-admin-logo {
+  position: relative;
+  top: 15px;
+}
+
+.whole-data-div-input {
+  position: relative;
+  top: 40px;
+  left: 33%;
+  border: 1PX solid gainsboro;
+  width: 37%;
+  padding: 10px 20px;
+}
+
+.lock-type {
+    border-bottom: 1px solid gainsboro;
+}
+
+.p-color-bluer {
+  color: rgb(73, 169, 210);
+}
+
+.p-color-bluer:hover {
+  color: rgb(57, 56, 56);
+}
+
+.btn-key-btn {
+  background-color: rgb(73, 169, 210);
+  border: none;
+}
+
+.btn-key-btn:hover {
+  background-color: rgb(73, 169, 210);
+}
+

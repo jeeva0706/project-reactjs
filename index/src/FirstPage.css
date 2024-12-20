@@ -1,0 +1,30 @@
+
+.Data-Content {
+    height: 100px;
+    border: 1px solid gainsboro;
+}
+.letter {
+    color: #44425A;
+    font-weight: 700;
+    font-size: 40px;
+}
+.e-letter {
+    color: #FF6600;
+    font-weight: 700;
+    font-size: 40px;
+}
+.l-data {
+    color: #44425A;
+    font-weight: 700;
+}
+
+small {
+    color: #6C6A74;
+}
+
+
+@media (max-width: 1200px) and (min-width: 992px) {
+    .l-data {
+        margin-right: 50px;
+    }
+  }
